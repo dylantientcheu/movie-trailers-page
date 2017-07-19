@@ -1,13 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 19 00:47:51 2017
-
-@author: Toshiba
-"""
-
 import webbrowser
 import os
 import re
+
 
 # Styles and scripting for the page
 main_page_head = '''
@@ -111,7 +105,6 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -141,6 +134,7 @@ movie_tile_content = '''
 </div>
 '''
 
+
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
     content = ''
@@ -161,6 +155,7 @@ def create_movie_tiles_content(movies):
         )
     return content
 
+
 def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
@@ -174,4 +169,4 @@ def open_movies_page(movies):
 
     # open the output file in the browser
     url = os.path.abspath(output_file.name)
-    webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+    webbrowser.open('file://' + url, new=2)  # open in a new tab, if possible

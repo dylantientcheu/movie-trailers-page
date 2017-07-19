@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 19 00:47:02 2017
-
-@author: Toshiba
-"""
-
-"""Defines the Movie class that contains the details of a movie."""
 import webbrowser
+
 
 class Movie(object):
     """This class provides a way to store movie related information.

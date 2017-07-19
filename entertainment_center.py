@@ -1,13 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 19 00:45:45 2017
-
-@author: Toshiba
-"""
-
-"""Stores details of movies and displays them on a website."""
 import fresh_tomatoes
 import media
+
 
 def main():
     """Creates six Movie objects, initialising these objects with title, storyline,
