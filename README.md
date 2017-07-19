@@ -1,4 +1,4 @@
-# Project 1: Movie Trailer Website
+# Project 1: Fresh Tomatoes Movie Trailer Website
 ### by Dylan Tientcheu
 
 Movie trailer website project, part of the Udacity [Full Stack Web Developer
@@ -46,8 +46,3 @@ The following features were implemented to gain an extra credit from Udacity:
 * Added the release date to the Movie class, which is also displayed on the website.
 * Changed the background and text colour to create a dark theme for the website.
 * Added subtle drop shadow to the movie poster images.
-
-## Miscellaneous
-
-This README document is based on a template suggested by PhilipCoach in this
-Udacity forum [post](https://discussions.udacity.com/t/readme-files-in-project-1/23524).
