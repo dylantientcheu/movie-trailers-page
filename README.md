@@ -1,5 +1,5 @@
 # Project 1: Fresh Tomatoes Movie Trailer Website
-### by Dylan Tientcheu
+### by Dylan B.
 
 Movie trailer website project, part of the Udacity [Full Stack Web Developer
 Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
